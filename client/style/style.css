@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+
+/* Basic styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fondamento", cursive, sans-serif;
+    background: #f0f0f0;
+    line-height: 1.6;
+    font-size: 18px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #333;
+}
+
+/* Form */
+
+form {
+    text-align: start;
+}
+
+.form-control {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.form-control label {
+    display: block;
+}
+
+.form-control input,
+.form-control textarea {
+    padding: 0.25rem;
+    outline: none;
+}
+
+.form-control textarea {
+    width: 45%;
+    height: 5rem;
+}
+
+.btn-generate {
+    margin-left: 2rem;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Entryholder */
+
+#entry-holder {
+    font-family: sans-serif;
+    margin-top: 4rem;
+    text-align: start;
+    justify-items: center;
+    display: flex;
+}
